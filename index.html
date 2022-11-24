@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/font/font.css">
+    <link rel="stylesheet" href="./src/css/device-width.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="block">
+        <form action="" method="post">
+            <div class="form-header">
+                <h1 class="form-title">Contact Us</h1>
+                <p class="form-description">
+                    The Voodoo team is looking forward to hearing from you!
+                </p>
+            </div>
+
+            <div class="form-content">
+                <input type="text" class="box mob-width" name="Name" id="name" placeholder="Full Name*">
+
+                <input type="text" class="box mob-width" name="titlePos" id="titlePos" placeholder="Title/Position*">
+                
+                <div class="select mob-width">
+                    <div class="select-header">
+                        <div class="select-current"><span class="select-title">Medical Profession*</span></div>
+                        <div class="select-icon"></div>
+                    </div>
+                    <div class="select-body">
+                        <div class="select-item">Option 1</div>
+                        <div class="select-item">Option 2</div>
+                        <div class="select-item">Option 3</div>
+                        <div class="select-item">Option 4</div>
+                        <div class="select-item">Option 5</div>
+                    </div>
+                </div>
+
+                <input type="email" class="box mob-width" name="email" id="email" placeholder="Email Address*">
+
+                <input type="tel" class="box mob-width" name="tel" id="tel" placeholder="Phone Number*">
+
+                <div class="select mob-width">
+                    <div class="select-header">
+                        <div class="select-current"><span class="select-title">Medical Profession*</span></div>
+                        <div class="select-icon"></div>
+                    </div>
+                    <div class="select-body">
+                        <div class="select-item">Option 1</div>
+                        <div class="select-item">Option 2</div>
+                        <div class="select-item">Option 3</div>
+                        <div class="select-item">Option 4</div>
+                        <div class="select-item">Option 5</div>
+                    </div>
+                </div>
+
+                <input type="text" class="box inquiry mob-width" name="Type of Inquiry*" id="inquiry*" placeholder="Type of Inquiry*">
+
+                <textarea name="textarea" class="box mob-width" id="textarea" cols="30" rows="10" placeholder="Enter Message*"></textarea>
+
+            </div>
+
+            <button class="form-btn mob-width">Send Message</button>
+        </form>
+
+        <div id="map"></div>
+    </div>
+
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer
+  ></script>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

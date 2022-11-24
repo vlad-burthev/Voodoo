@@ -1,0 +1,56 @@
+/*smartphone*/
+@media (max-width: 480px){
+
+    .block{
+        display: block;
+        max-width: 350px;
+        padding: 0 15px;
+    }
+
+    form{
+        margin-bottom: 63px;
+    }
+
+    .mob-width{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 350px;
+    }
+    .mob-width:not(:last-child){
+        margin-bottom: 43px;
+    }
+
+    .form-content{
+        display: block;
+    }
+    #map{
+        max-width: 353px;
+    }
+
+    .form-header{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 320px){
+
+}
+
+
+
+/*tablets*/
+@media (max-width: 768px){
+
+}
+
+
+/*netbook*/
+@media (max-width: 1024px){
+
+}
+
+
+/*computer*/
+@media (max-width: 1280px){
+
+}
